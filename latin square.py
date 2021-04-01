@@ -10,3 +10,4 @@ for i in range(row_col_num):
 for i in range(len(li)):
     for j in li:
         
+        
