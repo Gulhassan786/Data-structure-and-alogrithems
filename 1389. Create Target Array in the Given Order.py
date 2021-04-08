@@ -18,7 +18,7 @@ def createTargetArray(nums, indexes):
     return target
 
 
-numbers = [0, 1, 2, 3, 4]
+numbers = [3, 5, 7, 3, 4]
 index = [0, 1, 2, 2, 1]
 
 print(createTargetArray(numbers, index))
