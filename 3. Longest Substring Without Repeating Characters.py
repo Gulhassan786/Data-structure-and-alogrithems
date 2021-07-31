@@ -13,3 +13,18 @@ def lengthOfLongestSubstring( string):
         return result
 
 print (lengthOfLongestSubstring("gulhassan"))
+
+#  n = len(s)
+#        if n < 2:
+#             return n
+# 	# create hash map
+#         location = dict()
+# 	# create pointers
+#         i, m = -1, 1
+#         for j in range(n):
+# 		    # shift trailing pointer forward
+#             if s[j] in location:
+#                 i = max(location[s[j]], i)
+#             location[s[j]] = j
+#             m = max(j-i, m)
+#         return m

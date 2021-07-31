@@ -18,6 +18,7 @@ dict_1 = {
     }
 }
 for keys, value in dict_1.items():
+
     for i in range(len(value)):
         more_data = ""
         n = input("Tell me id of the student: ").strip()

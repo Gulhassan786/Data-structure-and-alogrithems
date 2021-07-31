@@ -8,6 +8,7 @@ def findMedianSortedArrays(nums1, nums2):
     nums1+=nums2
     
     nums1.sort()
+    
     mid = len(nums1)//2
     
     if len(nums1)%2 == 0:
@@ -18,3 +19,6 @@ def findMedianSortedArrays(nums1, nums2):
 n1 = [1,2]
 n2 = [4,3]
 print(findMedianSortedArrays(n1,n2))
+
+# time: O(n log n)
+# space: O(n)
