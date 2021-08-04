@@ -32,3 +32,4 @@ print(singleNumber([8,2,3,2,3]))
 
 # # Passing the argument to the funtion and printing it's returned value
 # print(singleNumber([8, 2, 3, 2, 3,8,9]))
+print("Kali linux Os")
