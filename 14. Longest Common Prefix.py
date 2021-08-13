@@ -3,7 +3,7 @@
 # If there is no common prefix, return an empty string "".
 
 
-    def longestCommonPrefix(strs: List[str]) -> str:
+def longestCommonPrefix(strs):
 
         common = []
         for l in strs[0]:
