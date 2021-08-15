@@ -14,4 +14,4 @@ def longestCommonPrefix(strs):
         return "".join(common)
 
 
-  print(longestCommonPrefix( ["flower","flow","flight"]))
+print(longestCommonPrefix( ["flower","flow","flight"]))
