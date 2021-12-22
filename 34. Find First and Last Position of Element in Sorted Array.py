@@ -7,7 +7,10 @@ You must write an algorithm with O(log n) runtime complexity.
 """
 
 def searchRange(nums, target):
-
+    
+    # Time complexity is O(log N)
+    # Space complexity is O(1)
+  
      result = [-1, -1]
      start = 0
      end = len(nums) - 1
@@ -30,6 +33,9 @@ def searchRange(nums, target):
      return result
 
 # ========================================================================================================
+          # Time complexity is O(N)
+          # Space complexity is O(1)
+        
         # Created list for storing index or starting and eding target       
         # result = []
         
