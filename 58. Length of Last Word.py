@@ -25,11 +25,9 @@ def lengthOfLastWord(s):
                     #last word in the string so break the loop
                     elif ord(s[pointer]) == 32:
                         break
-            
-
 
         return length
 
 
-output = lengthOfLastWord(" How are you doing ")
+output = lengthOfLastWord("qhahdfhdf")
 print(output)
